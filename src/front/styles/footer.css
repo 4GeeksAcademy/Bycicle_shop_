@@ -1,16 +1,25 @@
 .container-fluid {
     background-color: #484545;
     color: black;
-    height: 10%;
+    height: 10vh;
+    justify-content: space-around;
 }
 .link {
     color: black;
     text-decoration: none;
-    width: 40%;
 }
 .terms {
-    margin-left: 70%;
+    width: 100%;
 }
 p {
     margin: 0;
+}
+.footerLinks {
+    justify-content: space-around;
+}
+/*css to make the site responsive*/
+@media screen and (max-width: 400px) {
+    .footerLinks {
+        justify-content: space-around;
+    }
 }

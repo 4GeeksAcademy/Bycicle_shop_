@@ -5,12 +5,12 @@ import "../../styles/navbar.css";
 
 export const Navbar = () => {
 	return (
-		<nav className="navbar navbar-dark navbar-expand-lg fixed-top px-5">
+		<nav className="navbar navbar-dark navbar-expand-lg fixed-top ">
         	<div className="container-fluid ">
-				<div>
+				<figure>
 		  			<img src={logo} className="img" alt="logo" /> 
-				</div>
-				<div >
+				</figure>
+				<div>
 					<div className="mb-3">
 						<button className="language">English - Euro <i className="fa-solid fa-chevron-down"></i></button>
 					</div>
